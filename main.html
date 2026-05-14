@@ -3,14 +3,57 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<meta charset='utf-8'/>
+	<title>document</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+<form>
+	<lable for='name'>
+		Name:
+		<input type='text' placeholder='Name' id='name' required/><br>
+	</lable>
+	<label for='email'>
+			Email:
+		<input type='Email' placeholder='Email' id='email' required/>
+	</label>
+	</lable>
+	<label for='Gender'><br>
+		Gender:<br>
+		<input type='radio' id='Male' name='gender' required/> male <br>
+		<input type='radio' id='Female' name='gender'required/> female
+	</label><br>
+	<label for='select a car'>
+		Car brands:
+		<select id='car brands' required>
+		<option value=''>Select brands</option>
+		<option value='Audi'>Audi</option>
+		<option value='bmw'>BMW</option>
+		<option value='fronx'>Fronx</option>
+	</select>
+	</label>
+	<label for='Age'><br>
+		Age:
+		<input type='number' placeholder='Age' required id='age'>
+	</label><br>
+	<label for='DOB'>
+		DOB:
+		<input type='date' required id='dob' placeholder=''>
+	</label>
+	<label for='ph number'><br>
+		Ph number:
+		<input type='tel' id='tel' placeholder='xxx-xxx-xxx'>
+	</label<br>
+	<label for='password'><br>
+		Password:
+		<input type='password' required id='password' placeholder='password'>
+	</label>
+	<label for='tos'><br>
+		<input type='checkbox' required  placeholder=''>
+		I agree to the TOS
+	</label>
+	
+</form>
 </body>
 
 </html>
